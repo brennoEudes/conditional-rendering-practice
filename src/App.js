@@ -3,6 +3,7 @@ import Exemplo from "../src/exemploCondicional";
 import CompTexto from "./compTexto";
 import CompButton from "./compButton";
 import { useState } from "react";
+import Section from "./section";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Exemplo isCode={true} developer="Full-Stack" />
       <CompTexto text={text} />
       <CompButton setText={setText}/>
+      <Section />
     </div>
   );
 }
