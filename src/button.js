@@ -1,5 +1,5 @@
 function Button(props) {
-  return <button onClick={props.attState}>Clique Aqui!</button>;
+  return <button onClick={props.attStates}>Clique Aqui!</button>;
 }
 
 export default Button;

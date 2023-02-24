@@ -11,22 +11,21 @@ function App() {
   const [text, setText] = useState("Bom dia!");
 
   return (
-    <div className="App"> 
-      { /* <Exemplo isCode={true} developer="Full-Stack" />
+    <div className="App">
+      {/* <Exemplo isCode={true} developer="Full-Stack" />
       <CompTexto text={text} />
       <CompButton setText={setText} /> */}
 
       <Section />
-      {movies.map ((currentMovies) => {
+      {movies.map((currentMovies) => {
         return (
-          <Card 
+          <Card
             title={currentMovies.original_title}
             text={currentMovies.overview}
             CTA="Clique Aqui!"
           />
-        )
-      } )}
-      
+        );
+      })}
     </div>
   );
 }
