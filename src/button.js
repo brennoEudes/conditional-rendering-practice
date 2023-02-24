@@ -1,8 +1,6 @@
-function Button () {
+function Button (props) {
 
-    function handleButton () {}
-
-    return <button onClick={handleButton}>Clique Aqui!</button>;
+    return <button onClick={props.attState}>Clique Aqui!</button>;
 
 }
 
